@@ -35,9 +35,9 @@ In the above timers if the input signal changes its value back to original, befo
 
 ### TYPES OF COUNTERS
 
-Two types of counters are generally used in DCS.
-**1) Up Counter:** Up Counter counts input pulses in incremental manner i.e. it starts counting from 0 to the value specified as preset value. When the preset value and no of counts becomes equal the output of the counter becomes high.
-**2) Down Counter:** Down Counter counts input pulses in decrement manner i.e. it starts counting from the value specified in preset to 0 values. This can be done when input goes from high to low or low to high as we select in the function block. When the preset decrements to 0 value, the output of the counter becomes high.
+Two types of counters are generally used in DCS. \
+**1) Up Counter:** Up Counter counts input pulses in incremental manner i.e. it starts counting from 0 to the value specified as preset value. When the preset value and no of counts becomes equal the output of the counter becomes high. \
+**2) Down Counter:** Down Counter counts input pulses in decrement manner i.e. it starts counting from the value specified in preset to 0 values. This can be done when input goes from high to low or low to high as we select in the function block. When the preset decrements to 0 value, the output of the counter becomes high. \
 **Note:** The up and down counter function can be implemented in same counter block. We need to select the type as up or down counting.The input signal form in which counting is to be done i.e. from low to high or from high to low is also selectable.
 The block diagram of counter and its timing diagram:
 
