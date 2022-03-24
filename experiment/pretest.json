@@ -2,36 +2,62 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "This is a Sample Question 1?",
+      "question": "System reliability in case of DCS is",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "High",
+        "b": "Moderate",
+        "c": "Less",
+		"d": "None of these"
       },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
-      },
+      
       "correctAnswer": "a",
       "difficulty": "beginner"
     },
     {
-      "question": "This is a Sample Question 2?",
+      "question": "DCS has a ------------ structure.",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "Simple",
+        "b": "Planer",
+        "c": "Hierarchical",
+		"d": "None of these"
       },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+      
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "On which level does the field instruments are in the architecture of DCS?",
+      "answers": {
+        "a": "Level 1",
+        "b": "Level 2",
+        "c": "Level 4",
+		"d": "Level 0"
       },
+      
+      "correctAnswer": "d",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Limit function is available under ____ library in DCS.",
+      "answers": {
+        "a": "Logical",
+        "b": "Analog control",
+        "c": "Timer/counter",
+		"d": "None of these"
+      },
+      
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": " If any one of the two inputs goes high the output is high. To achieve this condition the function block to be used is __________.",
+      "answers": {
+        "a": "NOT",
+        "b": "AND",
+        "c": "OR",
+		"d": "XOR"
+      },
+      
       "correctAnswer": "c",
       "difficulty": "beginner"
     }
