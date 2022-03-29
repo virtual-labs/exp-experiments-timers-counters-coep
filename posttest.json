@@ -1,0 +1,66 @@
+{
+  "version": 2.0,
+  "questions": [
+    {
+      "question": " In case of retentive timer, the accumulated value",
+      "answers": {
+        "a": "is made equal to preset on power failure",
+        "b": "resets on power failure",
+        "c": "is maintained /hold on power failure",		
+		"d": "None of these"
+      },
+      
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": " Which of the following counters counts input pulses in decreasing manner?",
+      "answers": {
+        "a": "Down Counter",
+        "b": "Up Counter",
+        "c": "Up Down Counter",
+		"d": "None of these"
+      },
+     
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "OND stands for On Delay timer.",
+      "answers": {
+        "a": "False",
+        "b": "True",
+        "c": "Can't say",
+		"d": "None of these"
+      },
+     
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Which of the following is an example for On Delay Timer application?",
+      "answers": {
+        "a": "Emptying a tank",
+        "b": "Filling a tank",
+        "c": "Explosion of fire cracker",
+		"d": "None of these"
+      },
+      
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Which type of pulse is used for off delay timer?",
+      "answers": {
+        "a": "High to low",
+        "b": "Low to high",
+        "c": "None of the above",
+		"d": "Stable"
+      },
+     
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    }
+  ]
+}
+
